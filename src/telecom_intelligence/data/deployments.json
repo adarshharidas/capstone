@@ -1,0 +1,40 @@
+[
+  {
+    "deployment_id": "DEP-5501",
+    "service": "Customer API",
+    "release_version": "v2.4.1",
+    "environment": "production",
+    "status": "completed",
+    "health_check": "failed",
+    "health_message": "p95 latency exceeded 2 seconds for three consecutive checks",
+    "deployed_at": "2026-09-24T09:20:00+05:30"
+  },
+  {
+    "deployment_id": "DEP-5502",
+    "service": "Notification Gateway",
+    "release_version": "v3.1.0",
+    "environment": "production",
+    "status": "completed",
+    "health_check": "passed",
+    "deployed_at": "2026-09-24T10:45:00+05:30"
+  },
+  {
+    "deployment_id": "DEP-5503",
+    "service": "Network Inventory",
+    "release_version": "v1.8.3",
+    "environment": "staging",
+    "status": "rolled_back",
+    "health_check": "failed",
+    "health_message": "Inventory sync worker exited after schema validation failure",
+    "deployed_at": "2026-09-24T11:50:00+05:30"
+  },
+  {
+    "deployment_id": "DEP-5504",
+    "service": "Identity Gateway",
+    "release_version": "v5.0.2",
+    "environment": "production",
+    "status": "completed",
+    "health_check": "passed",
+    "deployed_at": "2026-09-24T12:10:00+05:30"
+  }
+]

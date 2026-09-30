@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/
+outputs/
+tmp/
+faiss.index

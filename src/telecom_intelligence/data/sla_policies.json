@@ -1,0 +1,6 @@
+{
+  "P1": {"response_minutes": 15, "resolution_minutes": 120},
+  "P2": {"response_minutes": 30, "resolution_minutes": 240},
+  "P3": {"response_minutes": 60, "resolution_minutes": 480},
+  "P4": {"response_minutes": 120, "resolution_minutes": 960}
+}

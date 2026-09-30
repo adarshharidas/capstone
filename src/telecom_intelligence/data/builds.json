@@ -1,0 +1,48 @@
+[
+  {
+    "build_id": "BUILD-8821",
+    "pipeline_id": "BUILD-8821",
+    "service": "Customer API",
+    "release_version": "v2.4.1",
+    "branch": "release/v2.4.1",
+    "commit": "a14f9c2",
+    "status": "failed",
+    "started_at": "2026-09-24T09:05:00+05:30",
+    "duration_minutes": 18,
+    "failure_reason": "Integration test timeout in customer-profile dependency"
+  },
+  {
+    "build_id": "BUILD-8822",
+    "pipeline_id": "BUILD-8822",
+    "service": "Notification Gateway",
+    "release_version": "v3.1.0",
+    "branch": "main",
+    "commit": "b341ae8",
+    "status": "passed",
+    "started_at": "2026-09-24T10:30:00+05:30",
+    "duration_minutes": 11
+  },
+  {
+    "build_id": "BUILD-8823",
+    "pipeline_id": "BUILD-8823",
+    "service": "Network Inventory",
+    "release_version": "v1.8.3",
+    "branch": "main",
+    "commit": "c29de11",
+    "status": "failed",
+    "started_at": "2026-09-24T11:30:00+05:30",
+    "duration_minutes": 22,
+    "failure_reason": "Contract test failed: inventory schema missing device_model"
+  },
+  {
+    "build_id": "BUILD-8824",
+    "pipeline_id": "BUILD-8824",
+    "service": "Identity Gateway",
+    "release_version": "v5.0.2",
+    "branch": "release/v5.0.2",
+    "commit": "d9910a4",
+    "status": "passed",
+    "started_at": "2026-09-24T11:55:00+05:30",
+    "duration_minutes": 14
+  }
+]

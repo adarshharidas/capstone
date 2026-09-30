@@ -1,0 +1,42 @@
+[
+  {
+    "alert_id": "ALT-701",
+    "incident_id": "INC-1042",
+    "service": "Customer API",
+    "metric": "http_p95_latency_ms",
+    "value": 2500,
+    "threshold": 1000,
+    "status": "active",
+    "message": "Customer API p95 latency is above the production threshold"
+  },
+  {
+    "alert_id": "ALT-702",
+    "incident_id": "INC-1043",
+    "service": "Notification Gateway",
+    "metric": "delivery_delay_seconds",
+    "value": 95,
+    "threshold": 60,
+    "status": "active",
+    "message": "Notification delivery delay is above the warning threshold"
+  },
+  {
+    "alert_id": "ALT-703",
+    "incident_id": "INC-1044",
+    "service": "Network Inventory",
+    "metric": "inventory_job_failures",
+    "value": 1,
+    "threshold": 0,
+    "status": "active",
+    "message": "Nightly inventory job failed in staging"
+  },
+  {
+    "alert_id": "ALT-704",
+    "incident_id": "INC-1045",
+    "service": "Identity Gateway",
+    "metric": "auth_error_rate_percent",
+    "value": 4.2,
+    "threshold": 2.0,
+    "status": "active",
+    "message": "Authentication error rate is above the baseline"
+  }
+]
